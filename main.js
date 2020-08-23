@@ -32,6 +32,9 @@ function reverseNumberFormat(num){
 	return Number(num.replace(/,/g,''));
 }
 
+
+/* For reading operator values */
+
 var operator = document.getElementsByClassName("operator");
 for(var i =0;i<operator.length;i++){
 	operator[i].addEventListener('click',function(){
@@ -72,6 +75,8 @@ for(var i =0;i<operator.length;i++){
 		
 	});
 }
+
+/* For reading Number values */
 
 var number = document.getElementsByClassName("number");
 
